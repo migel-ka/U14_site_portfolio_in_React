@@ -1,0 +1,30 @@
+.btn{
+    width: 130px;
+    height: 66px;
+    padding: 18px 50px 18px 50px;
+    border-radius: 100px;
+    background-color: rgba(74, 44, 237, 1);
+    box-shadow: 4px 4px 17.4px 0px rgba(255, 255, 255, 0.28) inset;
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn:hover {
+    box-shadow: 15px 7px 20px 5px rgba(255, 255, 255, 0.28) inset;
+    color:rgba(255, 255, 255, 0.28);
+}
+
+@media (max-width: 1475px) {
+    .btn{
+        width: 104px;
+        height: 56px;
+        padding: 16px 40px 16px 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn{
+        width: 80px;
+        height: 48px;
+        padding: 14px 30px 14px 30px;
+    }
+}

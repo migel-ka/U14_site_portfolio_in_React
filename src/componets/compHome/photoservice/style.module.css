@@ -1,0 +1,172 @@
+img {
+    max-width:100%;
+    height:auto;
+}
+
+.p {
+    font-size: 22px;
+    color: rgba(98, 100, 108, 1);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.titleName {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 60.1px;
+    text-align: left;
+    color: rgba(121, 124, 134, 1);
+}
+
+.titleP {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    margin-bottom: 50px;
+
+}
+/* блоки оформление*/
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    border-bottom: 1px solid rgba(28, 28, 33, 1);
+    margin: 200px 168px 80px 168px;
+}
+
+.name {
+    margin-bottom: 50px;
+}
+
+.contener {
+    margin: 100px 168px 100px 168px;
+    display: flex;
+}
+
+.textContent {
+    margin: 0 50px 0 0;
+    max-width: 783px;
+}
+
+.btnCont {
+    display: flex;
+    justify-content: space-between;
+    margin: 42.5px 40px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+}
+
+.intro h4{
+margin: 40px 40px 20px 0;
+}
+
+.Contact h4{
+margin: 40px 40px 20px 40px;
+}
+
+.intro p{
+margin: 0 40px 20px 40px;
+}
+
+.data {
+    display: flex;
+    justify-content: flex-start;
+}
+.Contact a{
+    text-decoration: none;
+    color: rgba(175, 176, 182, 1);
+}
+
+.tab {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.titleText {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: rgba(202, 202, 206, 1);
+    margin-bottom: 20px;
+}
+
+.text {
+    border: 1px solid rgba(28, 28, 33, 1);
+    height: 76px;
+    border-radius: 16px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: rgba(175, 176, 182, 1);
+    display: flex;
+    align-items: center
+}
+
+.imgDot {
+    margin: 18px 6.5px 18px 20px;
+}
+
+.buttonNav {
+    display: flex;
+    align-items: center
+}
+
+@media (max-width: 1440px) {
+    .title{
+        margin: 150px 80px 60px 80px;
+    }
+
+    .textContent {
+        margin: 0 40px 0 0;
+        max-width: 620px;
+    }
+    
+    .name {
+        margin-bottom: 40px;
+    }
+    
+    .contener {
+        margin: 0 80px 150px 80px;
+    }
+    
+    .titleName {
+        font-size: 34px;
+    }
+
+    .intro h4{
+        margin: 0 40px 20px 0;
+    }
+    
+    .titleP {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .titleText {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+
+    .text {
+        height: 60px;
+    }
+
+    .text p{
+        font-size: 16px;
+    }
+    .imgDot {
+        width: 30px;
+    }
+}
+ 
+@media (max-width: 400px) {
+   
+}

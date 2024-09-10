@@ -1,0 +1,144 @@
+.ABS {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 162px;
+    height: 328px;
+    background-image: url('..//..//assets/AbstractDesign.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+.p {
+    font-size: 22px;
+    color: rgba(98, 100, 108, 1);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.cards {
+    display: flex;
+}
+
+/* блоки оформление*/
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(28, 28, 33, 1);
+    margin: 200px 168px 80px 168px;
+}
+
+.name {
+    margin-bottom: 50px;
+}
+
+.contener {
+    margin: 100px 168px 100px 168px;
+    display: flex;
+}
+
+.textContent {
+    border: 1px solid rgba(28, 28, 33, 1);
+    border-radius: 20px;
+    margin: 49px 0 49px 30px;
+    max-width: 783px;
+}
+
+.btnCont {
+    display: flex;
+    justify-content: space-between;
+    margin: 42.5px 40px;
+}
+
+.intro {
+    border-bottom: 1px solid rgba(28, 28, 33, 1);
+}
+
+.intro h4{
+margin: 40px 40px 20px 40px;
+}
+
+.Contact h4{
+margin: 40px 40px 20px 40px;
+}
+
+.intro p{
+margin: 0 40px 20px 40px;
+}
+
+.data {
+    display: flex;
+    justify-content: flex-start;
+}
+.Contact a{
+    text-decoration: none;
+    color: rgba(175, 176, 182, 1);
+}
+
+.tab {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.titleName {
+    font-size: 30px;
+    font-weight: 500;
+}
+.titleP{
+    font-size: 15px;
+    font-weight: 400;
+}
+@media (max-width: 1440px) {
+    .title{
+        margin: 150px 80px 60px 80px;
+    }
+    
+    .name {
+        margin-bottom: 40px;
+    }
+    
+    .contener {
+        margin: 0 80px 150px 80px;
+    }
+    
+    .textContent {
+        margin: 33px 0 33px 20px;
+        max-width: 630px;
+    }
+    
+    .intro h4{
+       margin: 30px 30px 16px 30px;
+       font-size: 24px;
+    }
+    
+    .Contact h4{
+        margin: 30px 30px 16px 30px;
+        font-size: 24px;
+    }
+
+    .intro p{
+    margin: 30px 30px 16px 30px;
+    }
+    
+    .tab p{
+        font-size: 16px;
+    }
+
+    .tab a{
+        font-size: 18px;
+    }
+
+    .btnCont {
+        margin: 30px;
+    }       
+
+}
+ 
+@media (max-width: 400px) {
+   
+}

@@ -1,0 +1,44 @@
+.bord{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgba(7, 7, 8, 1);
+    border: 1px solid #1c1c21;
+    border-radius: 100px;
+    height: 82px;
+    width: 160px;
+    margin-right: 30px;
+}
+
+.btnNav {
+    width: 62px;
+    height: 62px;
+    border-radius: 100px;
+    margin: 10px;
+    background: #1c1c21;  
+    color: #fff;
+    font-size: 34px;
+}
+
+.btnNav:hover {
+    color: #1c1c21;  
+    background: #fff;
+    transition: 0.4s ease;
+}
+
+@media (max-width: 1440px) {
+    .bord{
+        height: 60px;
+        width: 124px;
+        margin-right: 20px;
+    }
+    .btnNav {
+        width: 48px;
+        height: 48px;
+        margin: 6px;
+        font-size: 24px;
+    }
+}
+ 
+@media (max-width: 400px) {
+   
+}

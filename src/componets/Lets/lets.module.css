@@ -1,0 +1,37 @@
+.baner {
+    display: flex;
+}
+
+.title {
+    font-size: 58px;
+    margin: 0 80px 100px 80px;
+}
+.p {
+    font-size: 58px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 1475px) {
+    .title {
+        font-size: 48px;
+        margin: 0 80px 100px 80px;
+    }
+    .p {
+        font-size: 48px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+    }
+}
+
+@media (max-width: 400px) {
+    .title {
+        font-size: 28px;
+        margin: 0 80px 100px 80px;
+    }
+    .p {
+        font-size: 28px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+    }
+}

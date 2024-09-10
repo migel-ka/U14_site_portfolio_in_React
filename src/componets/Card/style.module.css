@@ -1,0 +1,58 @@
+.card {
+    background-image: url("..//..//assets/Card.png");
+    background-repeat: no-repeat;
+    max-width: 512px;
+    margin-right: 30px;
+}
+.card:last-child {
+    margin-right: 0;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px 0px 40px;
+}
+
+.name {
+    font-size: 20px;
+    color: rgba(228, 228, 230, 1);
+    font-weight: 500;
+}
+.adress {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(98, 100, 108, 1);
+}
+
+.text {
+    font-size: 20px;
+    padding: 30px 40px 40px 40px;
+}
+
+.stars{
+    margin: 30px 0 30px 40px;
+}
+
+@media (max-width:1440px) {
+    .card {
+        max-width: 408px;
+        margin-right: 20px;
+    }
+    
+    .title{
+        padding: 30px 30px 0 30px;
+    }
+    
+    .name {
+        font-size: 18px;
+    }
+    .adress {
+        font-size: 16px;
+    }
+    
+    .text {
+        font-size: 18px;
+        padding: 24px 30px 30px 30px;
+    }   
+}

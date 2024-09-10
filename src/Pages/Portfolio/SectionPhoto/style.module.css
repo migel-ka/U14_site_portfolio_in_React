@@ -1,0 +1,127 @@
+img {
+    max-width:100%;
+    height:auto;
+}
+
+.p {
+    font-size: 22px;
+    color: rgba(98, 100, 108, 1);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.titleName {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 60.1px;
+    text-align: left;
+    color: rgba(121, 124, 134, 1);
+}
+
+.titleP {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    margin-bottom: 50px;
+
+}
+
+.name h4{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 60.1px;
+    text-align: left;
+    color: rgba(121, 124, 134, 1);
+
+}
+/* блоки оформление*/
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 80px;
+    border-bottom: 1px solid rgba(28, 28, 33, 1);
+    margin: 200px 168px 80px 168px;
+}
+
+.name {
+    margin-bottom: 50px;
+}
+
+.contener {
+    margin: 100px 168px 100px 168px;
+    display: flex;
+}
+
+.imgPosit {
+    display: flex;
+    justify-content: space-between
+}
+
+.buttonNav {
+    display: flex;
+    align-items: center
+}
+
+.titleImgPosit h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27.32px;
+    text-align: left;
+    color: rgba(202, 202, 206, 1);
+}
+
+.titleImgPosit p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    text-align: left;
+    color: rgba(121, 124, 134, 1);
+}
+
+.imgLink{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.59px;
+    text-align: left;
+    text-decoration: none;
+    background-color: #070708;
+    border-bottom: 1px solid rgba(242, 242, 243, 1);
+    color: rgba(242, 242, 243, 1);
+}
+
+.imgLink:hover{
+    color: rgba(121, 124, 134, 1);
+    transform: 0.3s;
+}
+
+.postPhoto:not(:last-child) {
+    margin-right: 50px;
+}
+
+@media (max-width: 1440px) {
+    .title{
+        margin: 100px 80px 0 80px;
+    }
+
+    .contener {
+        margin: 100px 80px 80px 80px ;
+    }
+    .title h4 {
+        font-size: 34px;
+    }
+    .titleImgPosit h4{
+        font-size: 18px;
+    }
+
+    .titleImgPosit p{
+        font-size: 16px;
+    }
+
+    .imgLink {
+        font-size: 14px;
+        height: 19px;
+    }
+}

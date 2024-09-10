@@ -1,0 +1,19 @@
+.contener {
+    margin: 100px 165px 100px 162px ;
+}
+
+h5 {
+   color: rgba(255, 255, 255, 1);
+   font-size: 48px;
+   font-weight: 600;
+}
+
+h3 {
+
+}
+.card {
+    max-width: 676.5px;
+    max-height: 81px;
+    background-image: url(..//..//..//assets/Card.png);
+    background-repeat: no-repeat;
+}
