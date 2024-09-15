@@ -79,3 +79,26 @@ p {
     }
 
 }
+
+@media (max-width: 600px) {
+    .contener {
+        margin: 40px 16px 30px 16px;
+        display: flex;
+        flex-direction: column;
+        position: static;
+    }
+    .title{
+        position: static;
+    }
+    .title p {
+        font-size: 14px;
+    }
+
+    .svgimg {
+        display: none;
+    }
+    
+    .titletext {
+        display: none;
+    }
+}

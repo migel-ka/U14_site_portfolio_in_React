@@ -1,29 +1,34 @@
 import style from "./style.module.css";
-import Img from "..//..//..//..//assets/service/Image.png";
+import Img from "..//..//..//..//assets/service/Image3.png";
 import DOT from "..//..//..//..//assets/Icon.svg";
 import BtnNav from "../../../../componets/btnNav";
 
-const PortPhoto = ()=> {
+const ComPhoto = ()=> {
     return (
         <article>
             <div className={style.contener}>
                 <div className={style.block}>
                     <div className={style.title}>
-                        <h4 className={style.h4}>PORTRAIT PHOTOGRAPHY</h4>
-                        <p className={style.p}>Our portrait photography service is all about showcasing your unique personality. Whether you need a professional headshot, a family portrait, or a personal photoshoot, we create images that reflect your true self. We work closely with you to bring out your best angles and expressions, ensuring every portrait tells your story.</p>
+                        <h4 className={style.h4}>COMMERCIAL PHOTOGRAPHY</h4>
+                        <p className={style.p}>In the world of business, a compelling image can make all the difference. Our commercial photography service is designed to enhance your brand's visual identity. We create striking images for your products, services, and marketing campaigns that leave a lasting impact on your audience.</p>
                         <button className={style.imgLink}>
                           VIEW PROJECT &#8599;
                         </button>
                     </div>
                     <div className={style.imgblock}>
+                        <div className={style.imgBlock}>
                         <img src={Img} />
+                        <div className={style.BtnNav}>
+                            <BtnNav />
+                        </div>
+                        </div>
                     </div>
                 </div>
                 <div className={style.infoblock}>
                     <div className={style.titleblock}>
                         <h4 className={style.infoblockh4}>Individual Session</h4>
                         <div className={style.priceblock}>
-                            <p className={style.infoblockp}>$250</p>
+                            <p className={style.infoblockp}>$500</p>
                             <button className={style.imgLink}>
                                 BOOK A CALL &#8599;
                             </button>
@@ -39,7 +44,7 @@ const PortPhoto = ()=> {
                     <div className={style.titleblock}>
                         <h4 className={style.infoblockh4}>Family Session</h4>
                         <div className={style.priceblock}>
-                            <p className={style.infoblockp}>$400</p>
+                            <p className={style.infoblockp}>$700</p>
                             <button className={style.imgLink}>
                                 BOOK A CALL &#8599;
                             </button>
@@ -55,7 +60,7 @@ const PortPhoto = ()=> {
                     <div className={style.titleblock}>
                         <h4 className={style.infoblockh4}>Couple Session</h4>
                         <div className={style.priceblock}>
-                            <p className={style.infoblockp}>$300</p>
+                            <p className={style.infoblockp}>Custom Pricing</p>
                             <button className={style.imgLink}>
                                 BOOK A CALL &#8599;
                             </button>
@@ -72,4 +77,4 @@ const PortPhoto = ()=> {
     );
 }
 
-export default PortPhoto;
+export default ComPhoto;

@@ -3,6 +3,8 @@
     background-repeat: no-repeat;
     max-width: 512px;
     margin-right: 30px;
+    border: 1px solid rgba(28, 28, 33, 1);
+    border-radius: 22px;
 }
 .card:last-child {
     margin-right: 0;
@@ -52,7 +54,8 @@
     }
     
     .text {
-        font-size: 18px;
+        font-size: 16px;
+        line-height: 27px;
         padding: 24px 30px 30px 30px;
     }   
 }

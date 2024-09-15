@@ -8,12 +8,24 @@ h5 {
    font-weight: 600;
 }
 
-h3 {
-
-}
 .card {
     max-width: 676.5px;
     max-height: 81px;
     background-image: url(..//..//..//assets/Card.png);
     background-repeat: no-repeat;
+}
+  @media (max-width: 1440px) {
+    .contener {
+        margin: 0 80px 150px 80px;
+    }
+}
+@media (max-width: 1200px) {
+    .contener {
+        margin: 0 16px 80px 16px;
+    }
+  }
+  @media (max-width: 600px) {
+    .contener {
+        flex-direction: column;
+    }   
 }

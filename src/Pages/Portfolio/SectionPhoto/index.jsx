@@ -110,12 +110,12 @@ const SectionPhoto = ()=> {
           </div>
         </article>
         <article>
-              <div className={style.title}>
+          <div className={style.title}>
              <div className={style.name}>
                <h4 >EVENTS PHOTOGRAPHY</h4>
              </div>
              <div className={style.buttonNav}>
-             <BtnNav />
+                <BtnNav />
              </div>
           </div>
           <div className={style.contener}>

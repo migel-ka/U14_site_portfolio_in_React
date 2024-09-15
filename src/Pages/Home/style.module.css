@@ -107,3 +107,31 @@ h1 {
         padding-top: 60px;
     }
 }
+@media (max-width: 1200px) {
+    h1{
+        font-size: 40px;
+    }
+    .contener {
+        margin: 0 16px 80px 16px;
+    }
+  }
+@media (max-width: 600px) {
+    .ABS{
+        flex-direction: column;
+        height: 268px;
+        margin: 40px 16px 0 16px;
+        background-image: none;
+    }
+    .p {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .nameH{
+        min-width: 358px;
+    }
+    .lets{
+        padding: 20px 15px 40px 16px;
+    }
+  }

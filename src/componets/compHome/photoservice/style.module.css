@@ -166,7 +166,26 @@ margin: 0 40px 20px 40px;
         width: 30px;
     }
 }
- 
-@media (max-width: 400px) {
-   
+@media (max-width: 1200px) {
+    .contener {
+        margin: 0 16px 80px 16px;
+    }
+  }
+  @media (max-width: 600px) {
+    .title{
+        margin: 80px 16px 40px 16px;
+        flex-direction: column;
+    }
+    .contener {
+        flex-direction: column;
+    }   
+    .textContent {
+        margin: 20px 0 0 0;
+    }
+    .BtnNav {
+        display: none;
+    }
+    .img {
+        margin-top: 40px;
+    }
 }

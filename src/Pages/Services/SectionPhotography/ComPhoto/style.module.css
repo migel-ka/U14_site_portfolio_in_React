@@ -111,6 +111,15 @@
     margin-right: 30px;
 }
 
+.imgBlock {
+    position: relative;
+}
+.BtnNav {
+   position: absolute;
+   bottom: -10%;
+   left: 41%;
+}
+
 @media (max-width:1770px) {
     .text {
         max-width: 896px;
@@ -189,5 +198,55 @@
         font-size: 14px;
         max-width: 112px;
         margin: 23.5px 58px 23.5px 14px;
+    }
+}
+
+@media (max-width:600px) {
+    .contener {
+        margin: 30px 16px 0 16px;
+    }
+    .block {
+        flex-direction: column;
+        margin-bottom: 45px;
+    }
+    .BtnNav {
+        bottom: -15%;
+        left: 39%;
+    }
+    .infoblock {
+        max-width: 550px;
+        flex-direction: column;
+    }
+    .titleblock {
+        margin: 0;
+    }
+    .priceblock {
+        justify-content: space-between;
+        max-width: 550px;
+        align-items: center;
+        height: 75px;
+    }
+    .infoblockp {
+        font-size: 38px;
+        min-width: 346px;
+    }
+    .imgLink {
+        width: 112px;
+        margin: 0;
+    }
+    .Contact {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .text {
+        font-size: 14px;
+        min-width: 358px;
+    }
+    .text p {
+        font-size: 14px;
+        min-width: 358px;
+    }
+    .infoblockh4 {
+        margin-top: 40px;
     }
 }

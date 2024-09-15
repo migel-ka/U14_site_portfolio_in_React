@@ -1,5 +1,5 @@
 import style from "./style.module.css";
-import Img from "..//..//..//..//assets/service/Image.png";
+import Img from "..//..//..//..//assets/service/Image2.png";
 import DOT from "..//..//..//..//assets/Icon.svg";
 import BtnNav from "../../../../componets/btnNav";
 
@@ -9,8 +9,8 @@ const EventyPhoto = ()=> {
             <div className={style.contener}>
                 <div className={style.block}>
                     <div className={style.title}>
-                        <h4 className={style.h4}>PORTRAIT PHOTOGRAPHY</h4>
-                        <p className={style.p}>Our portrait photography service is all about showcasing your unique personality. Whether you need a professional headshot, a family portrait, or a personal photoshoot, we create images that reflect your true self. We work closely with you to bring out your best angles and expressions, ensuring every portrait tells your story.</p>
+                        <h4 className={style.h4}>EVENTS PHOTOGRAPHY</h4>
+                        <p className={style.p}>Our event photography service is dedicated to capturing the magic of your special occasions. Whether it's a wedding, corporate event, or milestone celebration, we're there to document every heartfelt moment. We blend into the background, ensuring natural and candid shots that reflect the emotions of the day.</p>
                         <button className={style.imgLink}>
                           VIEW PROJECT &#8599;
                         </button>
@@ -28,7 +28,7 @@ const EventyPhoto = ()=> {
                     <div className={style.titleblock}>
                         <h4 className={style.infoblockh4}>Individual Session</h4>
                         <div className={style.priceblock}>
-                            <p className={style.infoblockp}>$250</p>
+                            <p className={style.infoblockp}>$1,500</p>
                             <button className={style.imgLink}>
                                 BOOK A CALL &#8599;
                             </button>
@@ -44,7 +44,7 @@ const EventyPhoto = ()=> {
                     <div className={style.titleblock}>
                         <h4 className={style.infoblockh4}>Family Session</h4>
                         <div className={style.priceblock}>
-                            <p className={style.infoblockp}>$400</p>
+                            <p className={style.infoblockp}>$800</p>
                             <button className={style.imgLink}>
                                 BOOK A CALL &#8599;
                             </button>
@@ -60,7 +60,7 @@ const EventyPhoto = ()=> {
                     <div className={style.titleblock}>
                         <h4 className={style.infoblockh4}>Couple Session</h4>
                         <div className={style.priceblock}>
-                            <p className={style.infoblockp}>$300</p>
+                            <p className={style.infoblockp}>Custom Pricing</p>
                             <button className={style.imgLink}>
                                 BOOK A CALL &#8599;
                             </button>

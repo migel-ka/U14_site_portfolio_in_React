@@ -23,7 +23,7 @@ img {
     background-color: rgba(14, 14, 16, 1);
 }
 
-h5 {
+.titleblock h5 {
    color: rgba(255, 255, 255, 1);
    font-size: 48px;
    font-weight: 600;
@@ -63,5 +63,46 @@ p {
     font-size: 20px;
     font-weight: 400;
     color: rgba(121, 124, 134, 1);
+}
+.titH{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 46.44px;
+    text-align: left;
+}
 
+@media (max-width: 1440px) {
+    .contener {
+        margin: 80px 80px 80px 81px ;
+    }
+    .titleblock {
+        max-width:204px;
+        max-height: 107px;
+        padding: 20px 24px 20px 24px;
+    }
+    .titleblock h5 {
+        font-size: 34px;
+     }
+     
+     .titleblock p{
+        font-size: 14px;
+     }
+    .titleblocks {
+        top: 14%;
+    }
+    .svgimg {
+        height: 100px;
+        bottom: 25%;
+    }
+    .titletext {
+        bottom: 27%;
+        right: 5%;
+        font-size: 14px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .titH{
+        font-size: 34px;
+  }
 }

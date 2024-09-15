@@ -7,21 +7,14 @@
     position: absolute;
     max-width: 1096px;
     z-index: 1;
-    top: 0%;
-    left: 20%;
+    top: 30%;
+    left: 0;
 
-}
-
-.svgimg {
-    position: absolute;
-    z-index: 1;
-    bottom: 2%;
-    left: 0%;
 }
 
 .titletext {
     position: absolute;   
-    bottom: 10%;
+    bottom: 5%;
     right: 5%;
     font-size: 18px;
     color: rgba(121, 124, 134, 1);
@@ -32,6 +25,12 @@
     font-size: 18px;
     font-weight: 400;
     color: rgba(121, 124, 134, 1);
+}
+
+.BtnNav {
+    position: absolute;
+    top: 15%;
+    right: 0;
 }
 
 @media (max-width:1680px) {    
@@ -69,3 +68,14 @@
         font-size: 16px;
     }
 }
+@media (max-width: 1440px) {
+    .contener {
+        margin: 80px 80px 80px 80px;
+    }
+  }
+  .title {
+    max-width: 780px;
+    top: 35%;
+    left: 0;
+
+  }

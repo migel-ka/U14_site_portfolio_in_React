@@ -53,6 +53,15 @@ nav {
 .footer {
   border-bottom: 1px solid #1c1c21;
 }
+.linka {
+  color: #fff;
+  transition:  background-color .3s ease;
+  height: 87px;
+  padding: 5px;
+}
+.linka:hover {
+  color: #1c1c21;;
+}
 
 @media (max-width: 1440px) {
   .nav{
@@ -74,9 +83,10 @@ nav {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   .nav,.header-btn{
     display: none;
+    align-items: center;
   }
   .burger{
     display: block;

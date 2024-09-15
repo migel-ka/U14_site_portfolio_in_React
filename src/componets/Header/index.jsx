@@ -30,7 +30,9 @@ const Header = ()=> {
         </NavLink>
       </nav>
       <button className="main-btn header-btn btn">
-        <a href="/Contact">Contact Me</a>
+        <NavLink to="/Contact" className='linka'>
+        Contact Me
+        </NavLink>
       </button>
       <button className="burger" onClick={handleMenu}>
         <img src={BURGER} />

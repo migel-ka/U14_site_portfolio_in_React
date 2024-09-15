@@ -23,15 +23,18 @@
         color: rgba(255, 255, 255, 1);
     }
 }
-
-@media (max-width: 400px) {
-    .title {
-        font-size: 28px;
-        margin: 0 80px 100px 80px;
-    }
+@media (max-width: 600px) {
     .p {
         font-size: 28px;
         font-weight: 600;
         color: rgba(255, 255, 255, 1);
     }
+}
+
+@media (max-width: 400px) {
+    .title {
+        font-size: 28px;
+        margin: 0;
+    }
+
 }

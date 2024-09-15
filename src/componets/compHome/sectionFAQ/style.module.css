@@ -96,3 +96,9 @@
             max-width: 950px;
         }
     }
+
+    @media (max-width: 600px) {
+        .title{
+            margin: 0 16px 0 16px;
+        }
+    }

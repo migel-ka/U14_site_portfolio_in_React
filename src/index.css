@@ -55,8 +55,9 @@ button{
 h2 {
   font-size: 58px;
   font-weight: 600;
-  line-height: 79.23px;
+  line-height: 38.25px;
   text-align: left;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -70,6 +71,7 @@ h3 {
 @media (max-width: 1440px) {
   header{
     height: 89px;
+    padding: 0 16px;
   }
   h2 {
     font-size: 48px;
@@ -78,16 +80,29 @@ h3 {
     font-size: 16px;
   }
 }
+
+
 @media (max-width: 1000px) {
   header{
   padding: 0 40px;
 }
 }
-@media (max-width: 400px) {
-  h2 {
-    font-size: 28px;
+
+@media (max-width: 600px) {
+  header {
+    height: 108px;
+    align-items: center;
   }
-  h3 {
+  .main-btn {
+    width: 130px;
+    padding: 14px 20px;
     font-size: 14px;
-  }
+    margin-bottom: 20px;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 14px;
+}
 }

@@ -19,6 +19,10 @@
     margin-top: 110px;
     align-items: center
 }
+.intoTitle {
+    display: flex;
+    max-width: 1597px;
+}
 
 @media (max-width: 1440px) {
     .cards {
@@ -33,4 +37,25 @@
         margin: 0 40px 0 0;
         max-width: 620px;
     }
+}
+@media (max-width: 1200px) {
+    .cards {
+        margin: 0 16px 80px 16px;
+    }
+  }
+@media (max-width: 600px) {
+    .title{
+        margin: 80px 16px 40px 16px;
+        flex-direction: column;
+    }
+    .contener {
+        flex-direction: column;
+    }
+    .mainTitle {
+    }
+    .titleBtn{
+        display: flex;
+        margin-top: 110px;
+        align-items: center
+    }   
 }

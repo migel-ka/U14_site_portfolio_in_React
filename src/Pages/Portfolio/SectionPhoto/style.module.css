@@ -125,3 +125,27 @@ img {
         height: 19px;
     }
 }
+
+@media (max-width: 600px) {
+    .title {
+        margin: 40px 16px 0 16px;
+        position: relative;
+    }
+    .title h4 {
+        font-size: 28px;
+    }
+    .contener {
+        margin: 40px 16px 211px 16px;
+    }   
+    .postPhoto:not(:first-child) {
+        display: none;
+    }
+    .buttonNav {
+        position: absolute;
+       top: 750%;
+       right: 40%;
+    }
+    .postPhoto:not(:last-child){
+        margin: 0;
+    }
+}

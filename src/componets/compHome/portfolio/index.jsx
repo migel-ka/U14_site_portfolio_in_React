@@ -12,7 +12,9 @@ const Portf = ()=> {
              <h2>EXPLORE MY PHOTOGRAPHY WORK</h2>
            </div>
            <div className={style.buttonNav}>
-           <BtnNav />
+            <div className={style.BtnNav}>
+                <BtnNav />
+            </div>
               <button className="main-btn">
                  View All Services &rarr;
               </button>

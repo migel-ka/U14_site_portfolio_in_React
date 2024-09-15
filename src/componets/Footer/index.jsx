@@ -21,43 +21,46 @@ const Footer = ()=> {
                        <Lets />
                     </div>
                     <nav className='footer-nav'>
-                    <div className='nav-menu-ul'>
-                        <ul>
-                            <li className='ferstLink'>
-                                <NavLink to="/">
-                                    HOME
-                                </NavLink>
-                            </li>
-                            <li><a href="" className="fotter-a">About Me</a></li>
-                            <li><a href="" className="fotter-a">My Works</a></li>
-                            <li><a href="" className="fotter-a">Testimonials</a></li>
-                        </ul>
-                    </div>
-                    <div className='nav-menu-ul'>
-                        <ul>
-                            <li className='ferstLink'>
-                                <NavLink>
-                                    CLIENTS
-                                </NavLink>
-                            </li>
-                            <li><a href="" className="fotter-a">Klovesto</a></li>
-                            <li><a href="" className="fotter-a">Nukeway</a></li>
-                            <li><a href="" className="fotter-a">Cloven’s</a></li>
-                            <li><a href="" className="fotter-a">MenVol</a></li>
-                        </ul>
-                    </div>
-                    <div className='nav-menu-ul'>
+                        <div className='footerBlock'>
+                            <div className='nav-menu-ul'>
+                                <ul>
+                                    <li className='ferstLink'>
+                                        <NavLink to="/">
+                                            HOME
+                                        </NavLink>
+                                    </li>
+                                    <li><a href="" className="fotter-a">ABOUT ME</a></li>
+                                    <li><a href="" className="fotter-a">MY WORKS</a></li>
+                                    <li><a href="" className="fotter-a">TESTIMONISLS</a></li>
+                                </ul>
+                            </div>
+                            <div className='nav-menu-ul'>
+                                <ul>
+                                    <li className='ferstLink'>
+                                        <NavLink>
+                                            CLIENTS
+                                        </NavLink>
+                                    </li>
+                                    <li><a href="" className="fotter-a">KLOVESTO</a></li>
+                                    <li><a href="" className="fotter-a">NUKEWAY</a></li>
+                                    <li><a href="" className="fotter-a">CLOVEN’S</a></li>
+                                    <li><a href="" className="fotter-a">MENVOL</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className='footerBlock'>
+                        <div className='nav-menu-ul'>
                         <ul>
                             <li className='ferstLink'>
                                 <NavLink to="/Portfolio">
                                     PORTFOLIO
                                 </NavLink>
                             </li>
-                            <li><a href="" className="fotter-a">Events</a></li>
-                            <li><a href="" className="fotter-a">Portrait</a></li>
-                            <li><a href="" className="fotter-a">Branding</a></li>
-                            <li><a href="" className="fotter-a">Commerciale</a></li>
-                            <li><a href="" className="fotter-a">Wedding</a></li>
+                            <li><a href="" className="fotter-a">EVENTS</a></li>
+                            <li><a href="" className="fotter-a">PORTRAIT</a></li>
+                            <li><a href="" className="fotter-a">BRANDING</a></li>
+                            <li><a href="" className="fotter-a">COMMERCIALE</a></li>
+                            <li><a href="" className="fotter-a">WEDDING</a></li>
                         </ul>
                     </div>
                     <div className='nav-menu-ul'>
@@ -67,11 +70,13 @@ const Footer = ()=> {
                                     SERVICES
                                 </NavLink>
                             </li>
-                            <li><a href="" className="fotter-a">Klovesto</a></li>
-                            <li><a href="" className="fotter-a">Klovesto</a></li>
-                            <li><a href="" className="fotter-a">Klovesto</a></li>
+                            <li><a href="" className="fotter-a">PORTRAITS</a></li>
+                            <li><a href="" className="fotter-a">EVENTS</a></li>
+                            <li><a href="" className="fotter-a">COMMERCIAL</a></li>
                         </ul>
                     </div>
+                            
+                        </div>
                     </nav>
                 </div>
                 <div className='footer-abs abs-rev'>

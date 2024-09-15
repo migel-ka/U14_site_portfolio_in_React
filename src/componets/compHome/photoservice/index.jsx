@@ -13,7 +13,9 @@ const PhotoService = ()=> {
              <h2>MY PHOTOGRAPHY SERVICES</h2>
            </div>
            <div className={style.buttonNav}>
-           <BtnNav />
+            <div className={style.BtnNav}>
+                <BtnNav />
+            </div>
               <button className="main-btn">
                  View All Services &rarr;
               </button>
@@ -39,7 +41,7 @@ const PhotoService = ()=> {
                    <div className={style.text}> <img className={style.imgDot} src={DOT} /> <p>QUICK TURNAROUND FOR YOU TO RELIVE THE DAY'S HIGHLIGHTS. </p></div>
                 </div>
             </div>
-            <div><img src={IMAGETWO} /></div>
+            <div className={style.img}><img src={IMAGETWO} /></div>
         </div>
     </content>
     );

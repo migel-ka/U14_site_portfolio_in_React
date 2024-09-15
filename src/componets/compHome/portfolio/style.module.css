@@ -114,3 +114,30 @@ img {
         height: 19px;
     }
 }
+@media (max-width: 1200px) {
+    .contener {
+        margin: 0 16px 80px 16px;
+    }
+  }
+@media (max-width: 600px) {
+    .title{
+        margin: 80px 16px 40px 16px;
+        flex-direction: column;
+    }
+    .contener {
+        flex-direction: column;
+        align-items: center;
+    }   
+    .textContent {
+        margin: 20px 0 0 0;
+    }
+    .BtnNav {
+        display: none;
+    }
+    .postPhoto:not(:last-child) {
+        margin-right: 0;
+    }
+    .postPhoto:not(:first-child) {
+        display: none;
+    }
+}

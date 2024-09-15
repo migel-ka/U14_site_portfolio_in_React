@@ -13,7 +13,7 @@ const Home = ()=> {
     return (
         <main>
             <div className={style.ABS}>
-                <div>
+                <div className={style.nameH}>
                     <p className={style.p}>STUNNING PHOTOGRAPHY BY</p>
                     <h1>DAMIEN BRAUN</h1>
                 </div>
