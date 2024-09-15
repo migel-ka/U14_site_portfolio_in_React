@@ -28,31 +28,22 @@ const Cards = ()=> {
         <content>
             <div className={style.title}>
                <div className={style.mainTitle}>
-                   <div>
+                  <div className={style.intoTitle}>
                       <h3>Testimonials</h3>
                       <h2>What My Clients Say</h2>
-                   </div>
-                   <div className={style.intoTitle}>
-                     <div>
-                       <p>
-                          Total Reviews
-                       </p>
-                       <p>
-                           323
-                       </p>
-                     </div>
-                     <div className={style.titleBtn}>
+                      <p>Total Reviews</p>
+                       <p className={style.ptext}>323</p>
+                  </div>
+                  <div className={style.titleBtn}>
                        <div className={style}>
                          <BtnNav />
                        </div>
                        <button className="main-btn btn">
                          View All Testimonials &rarr;
                        </button>
-                     </div>
-                   </div>
+                    </div>
                </div>
             </div>
-           
             <div className={style.cards}>
             {
                 MockComment.map(comment =>

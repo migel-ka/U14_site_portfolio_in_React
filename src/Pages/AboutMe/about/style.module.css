@@ -106,3 +106,41 @@ p {
         font-size: 34px;
   }
 }
+@media (max-width: 600px) {
+    .contener {
+        margin: 40px 16px 80px 17px ;
+        position: static;
+    }
+    .titleblocks {
+        position: static;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .titleblock {
+        width: 173px;
+        margin: 3px;
+        padding: 20px;
+
+    }
+    .title {
+        position: static;
+    }
+    .titleblock:not(:last-child)  {
+        margin-right:0;
+    }
+    .contener svg {
+        display: none;
+    }
+    .titletext {
+        display: none;
+    }
+    .titH {
+        font-size: 24px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+
+}

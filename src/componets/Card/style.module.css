@@ -1,6 +1,7 @@
 .card {
     background-image: url("..//..//assets/Card.png");
     background-repeat: no-repeat;
+    background-size: cover;
     max-width: 512px;
     margin-right: 30px;
     border: 1px solid rgba(28, 28, 33, 1);
@@ -36,7 +37,7 @@
     margin: 30px 0 30px 40px;
 }
 
-@media (max-width:1440px) {
+@media (max-width:1600px) {
     .card {
         max-width: 408px;
         margin-right: 20px;
@@ -58,4 +59,22 @@
         line-height: 27px;
         padding: 24px 30px 30px 30px;
     }   
+}
+@media (max-width: 1115px) {
+    .title {
+        padding: 20px 20px 0 20px;
+    }
+}
+@media (max-width: 1055px) {
+    .card {
+        margin-right: 0;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 600px) {
+    .card:not(:first-child) {
+        display: none;
+
+    }
 }

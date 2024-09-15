@@ -250,3 +250,14 @@
         margin-top: 40px;
     }
 }
+@media (max-width:400px){
+     .text p{
+        min-width: 300px;
+     }
+     .infoblockp {
+        min-width: 250px;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 50px;
+     }
+}

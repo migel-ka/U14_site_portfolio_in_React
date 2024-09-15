@@ -157,4 +157,11 @@ margin: 0 40px 20px 40px;
     .data {
         flex-direction: column;
     }
+    .ABS {
+        align-items: flex-start;
+    }
+    .btnCont {
+        flex-direction: column;
+        align-items: center;
+    }
 }

@@ -2,60 +2,51 @@
     display: flex;
     margin: 100px 165px 100px 162px ;
 }
-
-.title {
+.mainTitle {
     display: flex;
     justify-content: space-between;
-    height: 206px;
-    margin: 100px 165px 100px 162px ;
-    border-bottom: 1px solid rgba(28, 28, 33, 1);
+    margin: 0 161px 0 162px;
 }
-.mainTitle {
-    max-width: 918px;
+.titleBtn {
+    display: flex;
+    align-items: center;
+}
+.ptext {
+    font-size: 28px;
+    margin-top: 6px;
+    color: rgba(202, 202, 206, 1);
 }
 
-.titleBtn{
-    display: flex;
-    margin-top: 110px;
-    align-items: center
-}
-.intoTitle {
-    display: flex;
-    max-width: 1597px;
-}
+
 
 @media (max-width: 1440px) {
     .cards {
         margin: 60px 87px 0 88px ;
     }
-
-    .title{
-        margin: 150px 80px 60px 80px;
+    .mainTitle {
+        margin: 0 87px 0 88px;
     }
+    
 
     .textContent {
         margin: 0 40px 0 0;
         max-width: 620px;
     }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
     .cards {
         margin: 0 16px 80px 16px;
     }
   }
-@media (max-width: 600px) {
-    .title{
-        margin: 80px 16px 40px 16px;
-        flex-direction: column;
-    }
-    .contener {
-        flex-direction: column;
-    }
+  
+@media (max-width: 1055px) {
     .mainTitle {
+        margin: 0 16px;
+        flex-direction: column;
+        min-width: 390px;
     }
-    .titleBtn{
-        display: flex;
-        margin-top: 110px;
-        align-items: center
-    }   
+    .cards {
+        flex-direction: column;
+
+    }
 }

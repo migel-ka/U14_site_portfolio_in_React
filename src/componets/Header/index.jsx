@@ -4,8 +4,10 @@ import { NavLink } from "react-router-dom";
 import "./header.css";
 import { useState } from "react";
 import MobileMenu from "../MobileMenu";
+import Item from "./item/index";
 
 const Header = ()=> {
+  
     const [menuOpen, setMenuOpen] = useState(false);
 
     const handleMenu=() => {
@@ -14,7 +16,10 @@ const Header = ()=> {
 
     return (
     <header>
+      <div className="item">
       <img src={LOGO} className='logo' />
+      <Item />
+      </div>
       <nav className="nav">
         <NavLink to="/" className='nav-item nav-bord-lefl'>
             Home
